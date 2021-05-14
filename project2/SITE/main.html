@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>카카오스토리</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <div id="logo">
+        <a href="main.html">TISTORY</a>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="#">피드</a></li>
+          <li><a href="#">스토리</a></li>
+          <li><a href="#">스킨</a></li>
+          <li><a href="#">포럼</a></li>
+        </ul>
+  
+      </div>
+      <div id="notice">
+        <ul>
+          <li><img src="images/notice.png" alt="notice"></li>
+          <li><a href="#">[추가안내]abs.txt 파일 문제 해결 및 2차 도메인 관련 안내</a></li>
+        </ul>
+      </div>
+      <div id="login">
+        <ul>
+          <li><a href="#"><img src="images/bell.png" alt="bell" id="bell"></a></li>
+        <li><a href="#"><img src="images/login.png" alt="login"></a></li>
+        </ul>
+        
+      </div>
+    </header>
+    <section>
+<!-- ----------------------슬라이드쇼 구간 ----------------------- -->
+      <div id="slideshow">
+          <div class="slider_container">
+            <div class="slide">
+              <p class="main">이제부터 티스토리를 <br><strong>카카오계정</strong>으로<br>이용해주세요.</p>
+              <button class="detail">자세히보기</button>
+            </div>
+            <div class="slide">
+              <p class="main">당신의 이야기가<br><strong>값진 수익이 됩니다.</strong> </p>
+              <p class="sub">심사부터 광고 설정, 수익 확인까지<br>티스토리에서 바로 할 수 있어요.</p>
+              <button class="detail">자세히보기</button>
+            </div>
+            <div class="slide">
+              <p class="main">티스토리 앱 2.0<br><strong>업데이트</strong></p>
+              <p class="sub">모바일에서도 편리한 블로그 관리를 위해<br>티스토리 앱이 새 옷을 입었습니다.</p>
+              <button class="detail">자세히보기</button>
+            </div>
+          </div>
+          <button class="btn" id="prev">&lang;</button>
+          <button class="btn" id="next">&rang;</button>
+      </div> 
+      <!-- id="slideshow" -->
+<!-- ----------------------슬라이드쇼 구간 ----------------------- -->
+      <div id="information">
+        <ul class = "slides">
+          <li>
+            <img src="images/icon-1.jpg" alt="">
+            <div class="caption">
+              <h2>나뭇잎의 꿈<br>나뭇잎 스킨 적용하기</h2>
+              <p>나뭇잎 스킨은 영롱한 초록빛으로<br>당신의 블로그를 감싸줍니다.</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/icon-2.jpg" alt="">
+            <div class="caption">
+              <h2>외로운 소년<br>그의 사연은 무엇일까?</h2>
+              <p>한 소년이 혼자 길가에 앉아있다.<br>그의 사연은 대체 무엇일까?<br>무엇이 이 소년을 이토록 외룹게 만든 것인가.</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/icon-3.jpg" alt="">
+            <div class="caption">
+              <h2>모바일로 접속하는 블로그</h2>
+              <p>지금 바로 모바일로 당신의 블로그를 관리하세요.</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/img-1.jpg" alt="">
+            <div class="caption">
+              <h2>아름다운 꽃 한송이<br>자연을 느낄 수 있는 블로그</h2>
+              <p>꽃은 관리를 받아야 더 자신의 아름다움을 <br>뽐내고 유지할 수 있습니다. <br>꽃과 같은 블로그, 티스토리</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/img-2.jpg" alt="">
+            <div class="caption">
+              <h2>나만 없는 고양이<br>키우고 싶다면?</h2>
+              <p>고양이를 분양 받기엔 부담이 되고, <br>하지만 고양이는 키우고 싶다 하면? <br>카카오게임 고양이나라를 플레이하세요.</p>
+            </div>
+          </li>
+          <li>
+            <img src="images/img-3.jpg" alt="">
+            <div class="caption">
+              <h2>향기나는 꽃에 모여드는 <br>꿀벌 처럼...</h2>
+              <p>꿀벌은 꿀이 가득한, 향기가 나는 꽃에게만 모여듭니다.<br>꿀이 없고, 시든 꽃은 꿀벌이 좋아하지 않지요.</p>
+            </div>
+          </li>
+        </ul>
+        <p class="controls_info">
+          <span class="prev_info">&lang;</span>
+          <span class="next_info">&rang;</span>
+        </p>
+      </div>
+      <div id="menual">
+        <p>더 잘 쓰고 싶어요?</p>
+        <p><span class="first">당신의 티스토리에 다양한 <strong class="highlight">플로그인</strong>을
+          <br>사용할 수 있어요.</span>
+          <br><span class="second">사이트 보안을 위해 더 안전한
+            <br><strong class="highlight">암호화 접속</strong>을 사용해보세요.</span>
+      <br><span class="third">콘텐츠를 고정된 메뉴로 유지하고 싶다면
+        <br><strong class="highlight">페이지</strong>를 이용해보세요.</span>
+        <br><span class="fourth">나만의 <strong class="highlight">도메인</strong>을 연결해보세요.
+          <br>당신의 티스토리에 엣지가 생길거에요</span>
+      <br><span class="fifth"><strong class="highlight">로그인 보안</strong> 기능으로 당신의 정보와
+        <br>콘텐츠를 안전하게 지키세요!</span></p>
+      </div>
+  
+    </section>
+
+    <footer>
+      <div id="logo2">
+        <a href="main.html">TISTORY</a>
+        <p>티스토리는 카카오에서 ❤️을 담아만듭니다.
+          <br>Ⓒ Kakao Corp
+        </p>
+        <input type="text" placeholder="검색어 입력">
+      </div>
+      <div id="category">
+        <ul>
+          <li class="menu_menual"><b>메뉴가 궁금할 땐</b></li>
+          <li>스킨</li>
+          <li>포럼</li>
+          <li>스토리</li>
+        </ul>
+        <ul>
+          <li class="user_menual"><b>사용하다 궁금할 땐</b></li>
+          <li>오픈 API</li>
+          <li>스킨 가이드</li>
+          <li>고객센터</li>
+        </ul>
+        <ul>
+          <li class="policy_menual"><b>정책이 궁금할 땐</b></li>
+          <li>이용약관</li>
+          <li>카카오 개인정보처리방침</li>
+          <li>티스토리 개인정보처리방침</li>
+          <li>청소년보호정책</li>
+          <li>오픈API 이용약관</li>
+          <li>Email 수집거부정책</li>
+        </ul>
+        <ul>
+          <li class="help_menual"><b>도움이 필요할 땐</b></li>
+          <li>권리침해신고</li>
+          <li>상거래 피해 구제신청</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <script src="JS/slideshow.js"></script>
+  <script src="JS/information.js"></script>
+</body>
+</html>
